@@ -4,14 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Avisos/Regras</title>
 </head>
 <body>
-    <div class="regras">
-        <h1> Leia com atenção antes das regras</h1>
-        <p>1 -  Esse site não foi construído para ganhar ou perder dinheiro.</p>
-        <p>2 -  Esse site é como um modelo de atividade que possa ser aplicado no PIBID</p>
+    <div class="total">
+        <div class="avisos">
+            <h1 class="avisos-titulo"> Leia com atenção antes das regras</h1>
+            <p>1 -  Esse site não foi construído para ganhar ou perder dinheiro.</p>
+            <p>2 -  Esse site é como um modelo de atividade que possa ser aplicado no PIBID</p>
+            <p>3 -  Esse jogo é um <q>jogo de cartas</q> que tem a capacidade de medir a lógica dos alunos e também possar ser aplicado em outras áreas da matemática como <q>analise combinatória</q>.</p>
+        </div>
+        <div class="regras">
+            <h1 class="regras-titulo">Regras</h1>
+            <h2>Como jogar</h2>        
+            <p>Serão 2 jogadores: você e outra pessoa. Você terá duas opções de escolha <q>Bate</q> e <q>Fica</q></p>
+            <p>Caso você escolha <q>bate</q> irá vim mais uma carta para você</p>
+        </div>
     </div>
     <button type="button"><a href="jogo.html">Jogar</a></button>
+
+    <style>
+        body { font-family: Arial, Helvetica, sans-serif; text-align: center;color: black;}
+        h1, h2, h4, h3{font-weight: bolder;}
+        .avisos-titulo{color:brown; font-size: 0.50in}
+        p{font-size: 20px;}
+        button{ height: 100px; background-color: white; width: 200px; } 
+        button > a,  button{ font-size: 20px; color: black; font-style: none; background-color: white; font-weight: bold;} 
+        button a:hover{ font-size: 20px; color: black; background-color: rgb(255, 242, 242); font-weight: bolder; cursor: pointer;}
+    </style>
 </body>
 </html>
